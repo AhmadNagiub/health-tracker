@@ -1,0 +1,519 @@
+/* css for the home page */
+
+body {
+    overflow-x: hidden !important;
+}
+
+.imagee {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    font-family: 'Lucida Sans';
+    background-color: #6c7433;
+}
+
+.nav-link {
+    color: rgb(174, 224, 123);
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: white;
+    transform: rotate(-5deg);
+}
+
+.projectname {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    padding: 1px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 40px;
+    background-color: #6c7433;
+    color: white;
+    text-align: center;
+}
+
+.heading {
+    background-color: #9eaa46;
+    color: beige;
+    font-size: 25px;
+    margin: 50px;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.tablecontainer {
+    height: 300px;
+}
+
+table {
+    text-align: left;
+    position: relative;
+}
+
+th {
+    padding-left: 10px;
+    background: white;
+    position: sticky;
+    top: 0;
+    color: #6c7433;
+}
+
+td {
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+input {
+    border-radius: 10px;
+    color: rgb(146, 78, 22);
+    float: right;
+    /* font-size: 40px; */
+}
+
+
+/* for profile page */
+
+.form-control {
+    box-shadow: none!important;
+}
+
+form {
+    width: 50%;
+    margin: 2%;
+    border-color: #9eaa46;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 15px;
+    color: #6c7433;
+}
+
+.Schedule {
+    background-color: #6c7433;
+    font-size: 30px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.week {
+    background-color: #9eaa46;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    text-align: left;
+    border-radius: 15px;
+}
+
+.meal {
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #9eaa46;
+    border-style: solid;
+    padding: 20px;
+}
+
+.note {
+    color: rgb(146, 78, 22);
+    border-radius: 10px;
+    border-color: #9eaa46;
+    border-style: solid;
+    margin: 10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+
+/* gymanstics page */
+
+iframe {
+    width: 100%;
+    margin: auto !important;
+    height: 315px;
+}
+
+
+/* css for about us page */
+
+.intro {
+    color: #585f22;
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.projectaims {
+    color: rgb(146, 78, 22);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.Objectives {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+
+/* Style the back side */
+
+.flip-card-back {
+    background-color: #6c7433;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* sign in */
+.logo
+{
+    border: 2px solid #585f22;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEE;
+}
+
+.login form,
+.signup form
+{
+    background-color: #9eaa46;
+    z-index: 1220;
+    margin-top: 40px;
+    position: relative;
+}
+form span
+{
+    display: inline-block;
+    width:10% !important;
+    height: 40px;
+    background-color: #DDD;
+    position: relative;
+    border-radius: 5px;
+}
+
+form span i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+ form .input input{
+    width: 90% !important;
+    min-height: 40px;
+}
+ .social {
+padding: 20px 10px 0;
+}
+
+ .social button {
+border: 0;
+background-color: #336abd;
+color: #fff;
+border-radius: 5px;
+padding: 10px 15px;
+width: 230px;
+transition: 0.3s;
+}
+
+ .social button:focus {
+outline: 0;
+}
+
+ .social button:hover {
+opacity: 0.85;
+}
+
+ .social button:nth-last-of-type(2) {
+background-color: #e1452a;
+}
+ .social button:last-of-type {
+background-color: #22baec;
+}
+
+ .social button i {
+font-size: 20px;
+margin-right: 10px;
+}
+
+.login,
+.signup
+{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 110;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.navbar
+{
+    z-index: 4;
+}
+
+
+.x
+{
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.x .close
+{
+    background-color: transparent;
+    cursor: pointer;
+
+}
+/* sign in */
+
+/* media query */
+
+@media only screen and (max-width: 800px) {
+    /* for home bage */
+    .nav-link {
+        font-size: 12px;
+    }
+    .material-icons {
+        font-size: 25px !important;
+    }
+    .projectname {
+        font-size: 15px;
+    }
+    .logo {
+        width: 30px !important;
+    }
+    .heading {
+        font-size: 15px;
+        margin: 10px;
+        padding: 5px;
+    }
+    .mealicon {
+        font-size: 15px !important;
+    }
+    .tablecontainer {
+        height: 200px !important;
+    }
+    th {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    td {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    input {
+        font-size: 10px !important;
+    }
+    .footer {
+        padding: 1px !important;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .copyright {
+        font-size: 10px !important;
+    }
+    /* for about us page */
+    .intro {
+        font-size: 15px;
+    }
+    .projectaims {
+        font-size: 10px
+    }
+    .Objectives {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    /* for home bage */
+    .nav-link {
+        font-size: 9px;
+    }
+    .material-icons {
+        font-size: 10px;
+    }
+    .projectname {
+        font-size: 10px;
+    }
+    .logo {
+        width: 20px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .heading {
+        font-size: 10px;
+        margin: 5px;
+        padding: 7px;
+    }
+    .mealicon {
+        font-size: 9px !important;
+    }
+    .tablecontainer {
+        height: 150px !important;
+    }
+    th {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    td {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    input {
+        font-size: 7px !important;
+    }
+    .footer {
+        padding: 1px !important;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .copyright {
+        font-size: 10px !important;
+    }
+    /* for about us page */
+    .intro {
+        font-size: 15px;
+    }
+    .projectaims {
+        font-size: 10px
+    }
+    .Objectives {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    /* for home bage */
+    .nav-link {
+        font-size: 7px;
+    }
+    .material-icons {
+        font-size: 13px !important;
+    }
+    .mealicon {
+        font-size: 9px !important;
+    }
+    .projectname {
+        margin: 1px;
+        font-size: 8px;
+    }
+    .logo {
+        width: 20px !important;
+    }
+    .heading {
+        font-size: 10px !important;
+        margin: 3px!important;
+        padding: 5px!important;
+    }
+    th {
+        padding-left: 10px;
+        font-size: 7px;
+    }
+    td {
+        padding-left: 10px;
+        font-size: 7px;
+    }
+    input {
+        font-size: 7px;
+    }
+    .tablecontainer {
+        height: 100px !important;
+    }
+    .footer {
+        padding: 1px !important;
+        font-size: 7px;
+        margin-top: 5px;
+    }
+    .copyright {
+        font-size: 7px !important;
+    }
+    /* for about us page */
+    .intro {
+        font-size: 15px;
+    }
+    .projectaims {
+        font-size: 10px
+    }
+    .Objectives {
+        font-size: 12px;
+    }
+}
+
+
